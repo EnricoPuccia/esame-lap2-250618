@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 
 import Place from './components/Place';
@@ -12,5 +12,4 @@ export default createStackNavigator(
   {
     initialRouteName: 'Home',
   }
-)
-
+);
